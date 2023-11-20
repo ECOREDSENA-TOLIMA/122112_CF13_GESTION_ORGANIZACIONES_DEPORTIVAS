@@ -1,17 +1,22 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    componenteFormativo: 'Hecho económico ',
+    descripcionCurso:
+      'En el presente componente, se abordará todo lo relacionado con el hecho económico y el proceso contable, aspectos de gran importancia en la gestión de las organizaciones deportivas.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/float-1.svg'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/float-2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/float-3.svg'),
       },
     ],
   },
@@ -31,27 +36,47 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Hecho económico',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Periodo contable',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Principios de la contabilidad',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Componentes legales contables',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Características y objetivos de la información contable',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Concepto de estados financieros y sus elementos',
+            hash: 't_3_3',
+          },
+          {
+            numero: '3.4',
+            titulo: 'Ingresos y gastos',
+            hash: 't_3_4',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Código de comercio',
         desarrolloContenidos: true,
       },
     ],
@@ -102,32 +127,64 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Código de Comercio',
+      referencia:
+        'Resolución 549 del 2020. [DIAN]. Por la cual la Unidad Administrativa Especial Dirección de Impuestos y Aduanas Nacionales -DIAN adopta la Clasificación de Actividades Económicas CIIU Rev. 4 A.C. (2020) y sus notas explicativas, del Departamento Administrativo Nacional de Estadística - DANE, y se establecen otras clasificaciones propias de su competencia.',
+      tipo: 'Resolución',
+      link:
+        'https://www.dian.gov.co/normatividad/Proyectosnormas/Proyecto%20Resoluci%C3%B3n%20000000%20de%2030-10-2020.pdf',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Código de Comercio',
+      referencia:
+        'Gardey, A. (2013). <em>Definición de código de comercio.</em> Definición de.',
+      tipo: 'artículo',
+      link: 'https://definicion.de/codigo-de-comercio/',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Gastos',
+      significado:
+        'los gastos son decrementos en los beneficios económicos producidos a lo largo del periodo contable, bien en forma de salidas o disminuciones del valor de los activos, o bien por la generación o aumento de los pasivos, lo que da como resultado decrementos en el patrimonio y no están asociados con la adquisición o producción de bienes o la prestación de servicios, vendidos, ni con las distribuciones realizadas a los propietarios de este patrimonio.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Costos',
+      significado:
+        'los costos son decrementos en los beneficios económicos producidos a lo largo del periodo contable, que están asociados con la adquisición o producción de bienes y la prestación de servicios, vendidos, y que dan como resultado decrementos en el patrimonio.',
+    },
+    {
+      termino: 'Patrimonio',
+      significado:
+        'es la diferencia entre los activos (total de bienes) y los pasivos (total de obligaciones). Representa los derechos que los propietarios de la organización tienen sobre los activos.',
+    },
+    {
+      termino: 'Activos',
+      significado:
+        'representan recursos controlados por la empresa, producto de sucesos pasados, de los cuales se espera obtener beneficios económicos futuros. ',
+    },
+    {
+      termino: 'Pasivos',
+      significado:
+        'es una obligación presente, producto de sucesos pasados, para cuya cancelación, una vez vencida, la empresa espera desprenderse de recursos que incorporan beneficios económicos.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Alcarria, J. (2012). <em>Introducción a la Contabilidad.</em> Universidad Jaume I.',
       link: '',
+    },
+    {
+      referencia:
+        'Fowler (1994), E. (1994). <em>Contabilidad básica.</em> La Ley.',
+      link: '',
+    },
+    {
+      referencia:
+        'Ministerio de Hacienda y Crédito Público. (2015). Marco Conceptual para la preparación y presentación Información Financiera de las Entidades de Gobierno (pp. 9-10).',
+      link:
+        'https://www.minhacienda.gov.co/webcenter/ShowProperty?nodeId=%2FConexionContent%2FWCC_CLUSTER-058115%2F%2FidcPrimaryFile&revision=latestreleased',
     },
   ],
   creditos: [
@@ -135,15 +192,15 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Patricia Aristizabal',
-          cargo: 'Responsable del Ecosistema',
+          nombre: 'Claudia Patricia Aristizábal Gutiérrez',
+          cargo: 'Responsable del equipo',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Responsable de Línea de Producción',
+          nombre: 'Liliana Victoria Morales Gualdrón',
+          cargo: 'Responsable de línea de producción',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },
@@ -151,10 +208,47 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Camilo Andrés Aramburo Parra',
+          cargo: 'Experto temático',
+          centro: 'Centro de servicios de salud- Regional Antioquia',
+        },
+        {
+          nombre: 'Tatiana Cristina Vargas',
+          cargo: 'Instructora',
+          centro: 'Centro de servicios de salud- Regional Antioquia',
+        },
+        {
+          nombre: 'Paola Andrea Quintero Aguilar',
+          cargo: 'Diseño instruccional',
+          centro: 'Centro de Gestión Industrial - Regional Bogotá',
+        },
+        {
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Asesoría metodológica y pedagógica',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Responsable equipo de desarrollo curricular',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Darío González',
+          cargo: 'Corrección de estilo',
+          centro: 'Centro de Diseño y Metrología- Regional Distrito Capital',
+        },
+        {
+          nombre: 'Gloria Lida Alzate Suarez',
+          cargo: 'Adecuación instruccional',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Alix Cecilia Chinchilla Rueda',
+          cargo: 'Metodología para la formación virtual',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },
@@ -162,28 +256,22 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de Contenidos Digitales',
+          nombre: 'Nombre',
+          cargo: 'Diseñador web',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador Fullstack',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
           nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
+          cargo: 'Desarrollo Fullstack',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
           nombre: 'Nombre',
-          cargo: 'Actividad Didáctica',
+          cargo: 'Animación y producción audiovisual',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },
@@ -191,22 +279,23 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Zuleidy María Ruiz Torres',
-          cargo: 'Validador de Recursos Educativos Digitales',
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Evaluación de contenidos inclusivos y accesibles',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
+          nombre: 'Lina Marcela Pérez Manchego',
+          cargo: 'Validación de recursos educativos digitales',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          nombre: 'Leyson Fabian Castaño Pérez',
+          cargo:
+            'Validación de recursos educativos digitales y vinculación LMS',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },
