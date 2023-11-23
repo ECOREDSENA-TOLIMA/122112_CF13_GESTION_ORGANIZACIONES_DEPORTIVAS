@@ -55,8 +55,61 @@
         .titulo-principal__numero
           span
             color: black
+.tabs-b
+  border-bottom: none
+  .tabs-b__header
+    .tabs-b__tab
+      border-top: none !important
+      border-bottom: none
+      background-color: #FAFAFA
+      border-color: #D8D8D8
+      &--active
+        background-color: #FFFAE5
+  .tabs-b__content-item
+    background-color: #FFFAE5
+    border-bottom: none
+.pasos-a
+  .pasos-a__item
+    .pasos-a__numero
+      .pasos-a__circle
+        .h2
+          color: white
+.lista-ul--separador
+  li
+    padding-bottom: 10px
+    margin-bottom: 10px
+    border-bottom: 2px dotted #AFAFAF
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important
+  border-radius: 12px
+  &:hover    
+    .crd_hover_txt--body
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
 
-
+  .crd_hover_txt--body
+    width: 100%
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: rgba(255, 247, 230, 1) 
+  @media (max-width: 768px)
+    .crd_hover_txt--body
+      transform: translateY(calc( 100% - 5rem ))
+      h4
+        min-height: 44px
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
+.tabs-a
+  .tabs-a__tab
+    color: Black !important
+    background-color: #F6F6F6
 
 
 
