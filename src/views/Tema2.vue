@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 2
-      h1 Periodo contable
+      h1 Proceso contable
     
     .bloque-texto-g.bloque-texto-g--inverso.p-3.p-sm-4.mb-5.color-acento-botones
       .bloque-texto-g__img(

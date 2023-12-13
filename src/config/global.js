@@ -42,7 +42,7 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Periodo contable',
+        titulo: 'Proceso contable',
         desarrolloContenidos: true,
       },
       {
