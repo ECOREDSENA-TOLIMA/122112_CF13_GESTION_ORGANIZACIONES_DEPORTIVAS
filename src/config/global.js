@@ -176,6 +176,10 @@ export default {
       link: '',
     },
     {
+      referencia: 'Función Pública. (s.f.). Gestor Normativo.',
+      link: 'https://www.funcionpublica.gov.co/web/eva/gestor-normativo',
+    },
+    {
       referencia:
         'Fowler (1994), E. (1994). <em>Contabilidad básica.</em> La Ley.',
       link: '',

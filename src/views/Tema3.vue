@@ -189,10 +189,15 @@
           li.d-flex
             i.fas.fa-angle-right(style="color: #FE502D; font-size: 20px" data-aos="fade-right")
             p.mb-0 Cumplimiento de requerimientos legales y contractuales.
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        p A continuación, puede observar, los tres elementos que Fowler (1994), propone incluir en la información contable:
     
-    p.fw-bold.text-center A continuación, puede observar, los tres elementos que Fowler (1994), propone incluir en la información contable:
+    .titulo-sexto.color-acento-contenido.offset-1
+      h5 Figura 3.
+      span  #[i  Elementos que se pueden incluir en la información contable]
 
-    img.mx-auto.col-xl-10(src="@/assets/curso/temas/tema3/img-6.svg" style="max-width: 990px" alt="Imagen decorativa")
+    img.mx-auto.col-xl-10(src="@/assets/curso/temas/tema3/img-6.svg" style="max-width: 990px" alt="En la Figura 3 se presentan los elementos propuestos para incluir en la información contable, los cuales abarcan la situación patrimonial, evolución patrimonial y evolución financiera.")
 
     Separador 
     #t_3_3.titulo-segundo.color-acento-botones
@@ -208,7 +213,7 @@
               img(src="@/assets/curso/temas/tema3/img-7.png", alt="Imagen decorativa Relacionados con la situación financiera de la empresa")
           .crd_hover_txt--body(style="background-color: #2D54FE")
             h4.mb-3.text-white.text-center Relacionados con la situación financiera de la empresa
-            ul.mb-0
+            ul.mb-0.mbo
               li
               li.d-flex.justify-content-center.align-content-center
                 p.mb-0.col.mx-auto.text-center(data-aos="fade-right" style="color: white")
@@ -228,7 +233,7 @@
               img(src="@/assets/curso/temas/tema3/img-8.png", alt="Imagen decorativa Relacionados con el rendimiento financiero")
           .crd_hover_txt--body(style="background-color: #FFCA00")
             h4.mb-3.text-center Relacionados con el rendimiento financiero
-            ul.mb-0
+            ul.mb-0.mbo
               li
               li.d-flex.justify-content-center.align-content-center
                 p.mb-0.col.mx-auto.text-center(data-aos="fade-right")
@@ -241,7 +246,9 @@
                   i.fas.fa-angle-right.pe-2(style="color: #FE502D; font-size: 20px")
                   | Costos
 
-    p.fw-bold.text-center Dichos elementos, que conforman los estados financieros, serán descritos a continuación: 
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        p Dichos elementos, que conforman los estados financieros, serán descritos a continuación: 
 
     TabsA.color-acento-contenido
       .tarjeta.d-flex.flex-wrap.p-4(style="background-color: #FFFAE5" titulo="Activos")
@@ -280,7 +287,7 @@
             li
               p.mb-0(data-aos="fade-right")
                 i.fas.fa-circle.pe-2(style="color: #FE502D; font-size: 6px")
-                | Activos no corrientes: máquinas, herramientas u otros elementos empleados para la producción de la empresa.
+                | #[b Activos no corrientes:] máquinas, herramientas u otros elementos empleados para la producción de la empresa.
         img.mx-auto.col-xl-5.order-1.order-xl-2.mb-4.mb-xl-auto(src="@/assets/curso/temas/tema3/img-10.png", alt="Imagen decorativa" style="max-width: 330px")
       .tarjeta.d-flex.flex-wrap.p-4(style="background-color: #FFFAE5" titulo="Pasivos (obligaciones)")
         .col-xl-7.order-2.order-xl-1.pe-xl-4
@@ -337,7 +344,7 @@
               | #[b Pasivos no corrientes:] una cuota de un préstamo ya recibido que vence en un plazo determinado.
       .tarjeta.d-flex.flex-wrap.p-4(style="background-color: #FFFAE5" titulo="Patrimonio")
         .col-xl-7.order-2.order-xl-1.pe-xl-4
-          p El patrimonio, según Fowler, es la diferencia entre los activos (total de bienes) y los pasivos (total de obligaciones). Representa los derechos que los propietarios de la organización tienen sobre los activos. De acuerdo con lo anterior, cuando sucede un hecho económico, afectará el patrimonio de la empresa (positiva o negativamente), por lo que su información deberá quedar registrada en el libro contable y, asimismo, se deberá evidenciar por medio de un documento que lo acredite, como puede ser: factura, recibo, letra de cambio, etc.
+          p El patrimonio, según Fowler, es la diferencia entre los activos (total de bienes) y los pasivos (total de obligaciones). Cuando sucede un hecho económico, afectará el patrimonio de la empresa (positiva o negativamente), por lo que su información deberá quedar registrada en el libro contable y, asimismo, se deberá evidenciar con un documento que lo acredite, como factura, recibo, letra de cambio, etc.
 
           p Además, cada hecho económico deberá indicar de dónde provienen los recursos y qué destino tendrán. Deberá dar claridad si es un costo, gasto, activo o pasivo. Por consiguiente, una adecuada gestión de los hechos económicos en una empresa permitirá llevar una información contable ajustada a la realidad.
         img.mx-auto.col-xl-5.order-1.order-xl-2.mb-4.mb-xl-auto(src="@/assets/curso/temas/tema3/img-12.png", alt="Imagen decorativa" style="max-width: 330px")

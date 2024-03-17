@@ -17,8 +17,12 @@
 
     p.mb-5 De acuerdo con el mismo autor, el proceso contable, es un conjunto ordenado de etapas con el propósito de registrar cada uno de los hechos económicos según los criterios de reconocimiento, medición y revelaciones establecidos en los marcos normativos, de tal manera que la información financiera que se genere atienda las características cualitativas definidas en los mismos y que se capturen los datos originados en los hechos económicos de manera cronológica, convirtiéndose así en informes financieros útiles para los diferentes usuarios.
 
-    p.text-center.fw-bold El proceso contable se fragmenta generalmente en periodos de un año, con el fin de:
-    img.col-xl-10.mx-auto.mb-5(src='@/assets/curso/temas/tema2/img-2.svg' alt='Imagen decorativa' data-aos="fade-left")
+    p.fw-bold El proceso contable se fragmenta generalmente en periodos de un año, con el fin de:
+    
+    .titulo-sexto.color-acento-contenido.offset-1
+      h5 Figura 2.
+      span  #[i  Presentación anual del proceso contable]
+    img.col-xl-10.mx-auto.mb-5(src='@/assets/curso/temas/tema2/img-2.svg' alt='En la figura 2 se presenta la finalidad de realizar el proceso contable en un año, que incluye la medición de la gestión económica, situación financiera y obligación legal.' data-aos="fade-left")
 
     .container-100.py-4.mb-5(style="background-color: #E9EDFF")
       .col-xxl-10.mx-auto

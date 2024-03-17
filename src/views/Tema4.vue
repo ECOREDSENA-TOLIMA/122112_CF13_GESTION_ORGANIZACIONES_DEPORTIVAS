@@ -11,7 +11,7 @@
       img.col-lg-5.mx-auto.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema4/img-1.png" alt="Imagen decorativa" style="max-width: 505px" data-aos="fade-right")
       .col-lg-7.ps-lg-4
         .cajon.color-primario.p-4.mb-4(style="background-color: #E0F4FE" data-aos="fade-right")
-          p.mb-0 El Código de Comercio, según Gardey (2009), es el conjunto de normas, criterios y principios del derecho mercantil que tratan de regular las relaciones mercantiles. El Código de Comercio regula todos los actos de comercio, que son definidos como la compra de mercancía para revender, ya sea de cualquier naturaleza, como semielaborados, elaborados o solo para alquilar o rentabilizar.
+          p.mb-0 El Código de comercio, según Gardey (2009), es el conjunto de normas, criterios y principios del derecho mercantil que tratan de regular las relaciones mercantiles. El Código de Comercio regula todos los actos de comercio, que son definidos como la compra de mercancía para revender, ya sea de cualquier naturaleza, como semielaborados, elaborados o solo para alquilar o rentabilizar.
         p.mb-0(data-aos="fade-left") Es importante identificar el código del campo en el que interviene la organización o la prestación de servicios del gestor deportivo, con el fin de reconocer el campo de acción, los alcances, además de realizar su respectivo registro ante la dirección de impuestos y aduanas nacionales DIAN para la respectiva legalización de su actividad económica. En el caso de las organizaciones deportivas que intervienen en distintos ámbitos de la actividad física, el deporte y la recreación, se encuentran los siguientes códigos.
     
     .container-100(
@@ -21,7 +21,7 @@
       .col-xl-10.mx-auto
         .titulo-sexto.color-acento-botones.mb-3(data-aos="fade-right")
           h5 Tabla 1.
-          span Códigos de comercio relacionados con la gestión deportiva
+          span #[i Códigos de comercio relacionados con la gestión deportiva]
         .tabla-a.color-acento-botones.mb-5(data-aos="fade-left")
           table
             caption.text-center(style="font-weight: normal; color: #727997") Fuente: #[a(target="_blank" style="color: #2D54FE" href="https://linea.ccb.org.co/descripcionciiu/") https://linea.ccb.org.co/descripcionciiu/]
