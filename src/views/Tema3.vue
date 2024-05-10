@@ -27,7 +27,7 @@
       .tarjeta.color-acento-contenido.mt-auto.p-4
         img.mx-auto.mb-4(src='@/assets/curso/temas/tema3/slyF-3.svg' style="max-width: 177px;" alt='Esencia sobre forma')
         h4.text-center.w-100(style="color: black") Esencia sobre forma
-        p.text-center.mb-auto(style="color: black") Los hechos económicos se reconocen atendiendo a su esencia económica, independientemente de la forma legal que las original.
+        p.text-center.mb-auto(style="color: black") Los hechos económicos se reconocen atendiendo a su esencia económica, independientemente de la forma legal que las originales.
       .tarjeta.color-acento-contenido.mt-auto.p-4
         img.mx-auto.mb-4(src='@/assets/curso/temas/tema3/slyF-4.svg' style="max-width: 177px;" alt='Asociación')
         h4.text-center.w-100(style="color: black") Asociación
@@ -309,7 +309,8 @@
               p.mb-0(data-aos="fade-right")
                 i.fas.fa-circle.pe-2(style="color: #FE502D; font-size: 6px")
                 | Políticas en el sector en el que se desenvuelva.
-          p.mb-0 La cancelación del pasivo se podrá dar cuando se entrega dinero, otro bien o servicio, se reemplaza por otro pasivo, se acuerda con el acreedor la conversión de la deuda en capital, el acreedor condona o el deudor se libera de la obligación debido a la inacción del acreedor en el transcurso del tiempo.
+          br
+          p La cancelación del pasivo se podrá dar cuando se entrega dinero, otro bien o servicio, se reemplaza por otro pasivo, se acuerda con el acreedor la conversión de la deuda en capital, el acreedor condona o el deudor se libera de la obligación debido a la inacción del acreedor en el transcurso del tiempo.
         img.mx-auto.col-xl-5.order-1.order-xl-2.mb-4.mb-xl-auto(src="@/assets/curso/temas/tema3/img-11.png", alt="Imagen decorativa" style="max-width: 330px")
       .tarjeta.d-flex.flex-wrap.p-4(style="background-color: #FFFAE5" titulo="Clasificación de los pasivos")
         p.fw-bold(style="color: #FE502D") Obligaciones generadas por contingencias
